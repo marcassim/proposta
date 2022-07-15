@@ -12,7 +12,7 @@ class PropostaAdmin(admin.ModelAdmin):
     # def get_changelist(self, request, **kwargs):
     #     return TotalChangeList
 
-    list_display = ['cliente','data','pago','valor']
+    list_display = ['cliente','data','pago','valor','imprimir']
     search_field=['cliente']
     list_filter=['cliente','data','situacao']
     # lista_editable=['valor']
