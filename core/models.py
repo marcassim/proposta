@@ -40,7 +40,7 @@ class Proposta(models.Model):
     valor = models.DecimalField("Valor a pagar", max_digits=8, decimal_places=2)
     CATEGORY_CHOICES = (
         ("Atrasado", "Atrasado"),
-        ("AVencer", "Á Vencer"),
+        ("AVencer", "À Vencer"),
         ("Pago", "Pago"),
     )
 
